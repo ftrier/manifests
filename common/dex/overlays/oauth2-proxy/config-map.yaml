@@ -18,9 +18,9 @@ data:
       skipApprovalScreen: true
     enablePasswordDB: true
     staticPasswords:
-    - email: felix@dev.local
+    - email: example@dev.local
       hashFromEnv: FELIX_PASSWORD
-      username: felix
+      username: example
     staticClients:
     # https://github.com/dexidp/dex/pull/1664
     - idEnv: OIDC_CLIENT_ID
